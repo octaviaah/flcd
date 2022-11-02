@@ -1,0 +1,10 @@
+player x;
+
+pass >> x;
+
+cross (x <= 1) full_time "not prime";
+corner cross (x == 2) fulltime "prime";
+corner cross (x % 2 == 0) fulltime "not prime";
+dribble (player i = 'abc'; i*i <=x; i += 2)
+	cross (x % i == 0) fulltime "not prime";
+fulltime "prime";
