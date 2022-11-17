@@ -1,0 +1,14 @@
+player a, b, c, max;
+max = 0;
+pass >> a;
+pass >> b;
+pass >> c;
+
+cross (a >= b && a >= c)
+	max = a;
+corner cross (b >= a && b >= c)
+	max = b;
+corner max = c;
+
+score << max;
+	

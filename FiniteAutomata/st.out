@@ -1,0 +1,9 @@
+Identifiers table:
+0-deque(['x'])
+5-deque(['i'])
+
+Constants table:
+8-deque(['0'])
+9-deque(['1', '"prime"'])
+10-deque(['2'])
+18-deque(['"not prime"'])

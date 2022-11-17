@@ -1,0 +1,19 @@
+player max;
+player n;
+player sum;
+
+max = 0;
+sum = 0;
+
+pass >> n;
+
+freekick (n > 0) {
+	player x;
+	pass >> x;
+	sum = sum + x;
+	n = n - 1;
+}
+
+score << sum;
+
+	
