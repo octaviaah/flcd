@@ -1,0 +1,39 @@
+State: q
+Current position: 0
+Working stack: []
+Input stack: ['S']
+---expand---
+State: q
+Current position: 0
+Working stack: []
+Input stack: ['S']
+---expand---
+State: q
+Current position: 0
+Working stack: [('S', 0)]
+Input stack: [('A B', 1)]
+---momentary insuccess---
+State: b
+Current position: 0
+Working stack: [('S', 0)]
+Input stack: [('A B', 1)]
+---another try---
+-------RESULT:-------
+Error at position : 0
+State: q
+Current position: 0
+Working stack: []
+Input stack: ['S']
+---expand---
+State: q
+Current position: 0
+Working stack: [('S', 0)]
+Input stack: ['A B']
+---momentary insuccess---
+State: b
+Current position: 0
+Working stack: [('S', 0)]
+Input stack: ['A B']
+---another try---
+-------RESULT:-------
+Error at position : 0
